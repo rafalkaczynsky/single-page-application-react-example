@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body {
+  background-color: #2C3E50;
+  padding: 20px;
+  margin: 0;
+  font-style: italic;
+}
+h1 {
+  color: #19B5FE;
+  letter-spacing: 3px;
+}
+h1, h2, p, ul, li {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.active {
+  background-color: #19B5FE;
+  color: #22313F;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+}
+ul.header {
+  background-color: #22313F;
+  color: #19B5FE;
+  padding: 7px;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #6BB9F0;
+  padding: 20px;
+  padding-left: 30px;
+  color: #22313F;
+  width: 83%;
+  float: right;
+}
+.content h2 {
+  padding: 0;
+  margin: 30px;
+  margin-left: 0px;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.footer {
+  color: #6BB9F0;
+  text-align: center;
+  font-size: 12px;
+  margin: 100px;
+}
+.sideBarContainer, .portfolioContainer {
+  display: inline-block;
+  vertical-align: top;
+}
+.portfolioContainer{
+  width: 70%;
+  margin-left: 10%;
+  vertical-align: top;
+}
+
+.sideBarContainer ul {
+  background-color: #22313F;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.sideBar li{
+  list-style-type: none;
+  padding: 10px 30px;
+}
+ul.sideBar li:first-child {
+  padding-top: 20px;
+}
+
+ul.sideBar li:last-child {
+  padding-bottom: 20px;
+}
+
+ul.sideBar li:hover{
+  background-color: #6BB9F0;
+  color: #22313F;
+}
+ul.sideBar li a{
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+}

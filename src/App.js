@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import {IndexLink, Link} from 'react-router';
 
-import logo from './logo.svg';
-import './App.css';
+import './resources/stylesheets/App.css';
 import {SideBar, Footer} from './components'
 
 export default class App extends React.Component {

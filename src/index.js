@@ -6,8 +6,7 @@ import { Router,
          hashHistory} from 'react-router';
 
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-import './index.css';
+
 import {About, Home, Portfolio, Contact} from './components'
 import  {WebsiteOne, WebsiteTwo, WebsiteThree, WebsiteFour} from './components/websites'
 
@@ -28,4 +27,3 @@ import  {WebsiteOne, WebsiteTwo, WebsiteThree, WebsiteFour} from './components/w
         document.getElementById("root")
     );
   
-registerServiceWorker();
